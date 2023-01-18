@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SunnyDoll", "SunnyDoll\SunnyDoll.vcxproj", "{F0B41ED0-66F0-4CC0-8AAD-746F92763F98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Monitors", "Monitors", "{5A1ADB26-B051-4CD7-BA2F-7B24B6E0ADDA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MainMonitor", "MainMonitor\MainMonitor.vcxproj", "{4E8E4DB3-827F-48E9-AEC2-4E183E9468B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{1B89427B-DEA7-47A5-9C82-1E9DB7238299}"
+	ProjectSection(SolutionItems) = preProject
+		vcpkg.json = vcpkg.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0B41ED0-66F0-4CC0-8AAD-746F92763F98}.Debug|x64.ActiveCfg = Debug|x64
+		{F0B41ED0-66F0-4CC0-8AAD-746F92763F98}.Debug|x64.Build.0 = Debug|x64
+		{F0B41ED0-66F0-4CC0-8AAD-746F92763F98}.Debug|x86.ActiveCfg = Debug|Win32
+		{F0B41ED0-66F0-4CC0-8AAD-746F92763F98}.Debug|x86.Build.0 = Debug|Win32
+		{F0B41ED0-66F0-4CC0-8AAD-746F92763F98}.Release|x64.ActiveCfg = Release|x64
+		{F0B41ED0-66F0-4CC0-8AAD-746F92763F98}.Release|x64.Build.0 = Release|x64
+		{F0B41ED0-66F0-4CC0-8AAD-746F92763F98}.Release|x86.ActiveCfg = Release|Win32
+		{F0B41ED0-66F0-4CC0-8AAD-746F92763F98}.Release|x86.Build.0 = Release|Win32
+		{4E8E4DB3-827F-48E9-AEC2-4E183E9468B1}.Debug|x64.ActiveCfg = Debug|x64
+		{4E8E4DB3-827F-48E9-AEC2-4E183E9468B1}.Debug|x64.Build.0 = Debug|x64
+		{4E8E4DB3-827F-48E9-AEC2-4E183E9468B1}.Debug|x86.ActiveCfg = Debug|Win32
+		{4E8E4DB3-827F-48E9-AEC2-4E183E9468B1}.Debug|x86.Build.0 = Debug|Win32
+		{4E8E4DB3-827F-48E9-AEC2-4E183E9468B1}.Release|x64.ActiveCfg = Release|x64
+		{4E8E4DB3-827F-48E9-AEC2-4E183E9468B1}.Release|x64.Build.0 = Release|x64
+		{4E8E4DB3-827F-48E9-AEC2-4E183E9468B1}.Release|x86.ActiveCfg = Release|Win32
+		{4E8E4DB3-827F-48E9-AEC2-4E183E9468B1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E8E4DB3-827F-48E9-AEC2-4E183E9468B1} = {5A1ADB26-B051-4CD7-BA2F-7B24B6E0ADDA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79911AF3-18DD-462C-937A-ECBE0B6FAE7E}
+	EndGlobalSection
+EndGlobal

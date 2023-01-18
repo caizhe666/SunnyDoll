@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "sunny-doll",
+  "version-string": "0.0.1",
+  "port-version": 0,
+  "description": "Program behavior detector for reverse engineering and security research",
+  "maintainers": [ "Mitsuha" ],
+  "dependencies": [
+    {
+      "name": "detours",
+      "platform": "windows"
+    },
+    {
+      "name": "spdlog",
+      "platform": "windows"
+    },
+    {
+      "name": "boost-interprocess",
+      "platform": "windows"
+    },
+    {
+      "name": "pugixml",
+      "platform": "windows"
+    }
+  ],
+  "license": "AGPL-3.0-or-later"
+}
