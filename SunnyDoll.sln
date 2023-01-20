@@ -11,6 +11,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MainMonitor", "MainMonitor\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{1B89427B-DEA7-47A5-9C82-1E9DB7238299}"
 	ProjectSection(SolutionItems) = preProject
+		.github\workflows\msbuild.yml = .github\workflows\msbuild.yml
 		vcpkg.json = vcpkg.json
 	EndProjectSection
 EndProject

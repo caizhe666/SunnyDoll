@@ -32,10 +32,9 @@ jobs:
       working-directory: ${{env.GITHUB_WORKSPACE}}
       run: nuget restore ${{env.SOLUTION_FILE_PATH}}
       
-    - name: run-vcpkg
-      uses: lukka/run-vcpkg@v10.7
-      with:
-        vcpkgGitCommitId: '5908d702d61cea1429b223a0b7a10ab86bad4c78'
+    - name: Restore vcpkg packages
+      working-directory: ${{env.GITHUB_WORKSPACE}}
+      run: vcpkg integrate install
 
     - name: Build x64
       working-directory: ${{env.GITHUB_WORKSPACE}}
