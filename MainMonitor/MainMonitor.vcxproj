@@ -72,15 +72,23 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IncludePath>$(SolutionDir)3rd_party\systeminformer\phnt\include;$(IncludePath)</IncludePath>
+    <TargetName>$(ProjectName)_$(PlatformTarget)</TargetName>
+    <OutDir>$(SolutionDir)$(Configuration)Build\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>$(SolutionDir)3rd_party\systeminformer\phnt\include;$(IncludePath)</IncludePath>
+    <TargetName>$(ProjectName)_$(PlatformTarget)</TargetName>
+    <OutDir>$(SolutionDir)$(Configuration)Build\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>$(SolutionDir)3rd_party\systeminformer\phnt\include;$(IncludePath)</IncludePath>
+    <TargetName>$(ProjectName)_$(PlatformTarget)</TargetName>
+    <OutDir>$(SolutionDir)$(Configuration)Build\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>$(SolutionDir)3rd_party\systeminformer\phnt\include;$(IncludePath)</IncludePath>
+    <TargetName>$(ProjectName)_$(PlatformTarget)</TargetName>
+    <OutDir>$(SolutionDir)$(Configuration)Build\</OutDir>
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg">
     <VcpkgEnableManifest>true</VcpkgEnableManifest>

@@ -23,6 +23,14 @@
 // Program main entry
 //
 
+#if defined(_M_X64)
+#define MMONITOR_NAME "\\MainMonitor_x64.dll"
+#endif // x64
+
+#if defined(_M_IX86)
+#define MMONITOR_NAME "\\MainMonitor_x86.dll"
+#endif // x86
+
 INT
 wmain(
 	INT argc,
@@ -154,7 +162,7 @@ wmain(
 	// Add pre-defined dll to dll list
 	//
 
-	dll_list.push_back(std::filesystem::current_path().string() + "\\MainMonitor.dll");
+	dll_list.push_back(std::filesystem::current_path().string() + MMONITOR_NAME);
 
 	//
 	// Transform std::string array to LPCSTR array
